@@ -1,0 +1,129 @@
+/*  CSS OF HEADER */
+
+.main-div {
+    height: 500px;
+    display: flex;
+    justify-content:space-around;
+}
+h1{
+    font-size: 60px;
+    color: green;
+    
+}
+h3{
+    font-size: 30px;
+    color: rgb(6, 117, 6);
+}
+
+
+.paragraph{
+    font-size: 25px;
+    font:medium;
+    width:700px;
+}
+
+
+#single-text{
+    color: green;
+    font-weight: bold;
+}
+
+.explore-btn{
+    padding: 10px 30px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.right-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+
+}
+.card-sec{
+background: rgba(211, 229, 231, 0.687);
+width: 300px;
+height: 400px;
+margin-top: 50px;
+border-radius: 20px;
+box-shadow: 10px;
+
+}
+#card-text{
+    color: green;
+    padding: 2px 40px;
+}
+#card-img{
+width: 220px;
+height: 250px;
+padding:0px 40px;
+}
+
+#card-button{
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 15px;
+    margin: 10px 90px;
+}
+
+.card-button:hover {
+    background: white;
+    color: green;
+}
+
+/* FOR MOBILE  */
+
+@media (max-width: 320px){
+ 
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    margin-top: 40px 0px;
+    
+}   
+
+h1{
+    font-size: 40px;
+    color: green;
+    padding: 0px 2px;
+    text-align:center ;
+    
+}
+h3{
+    font-size: 20px;
+    color: rgb(6, 117, 6);
+    padding-left: 12px;
+}
+
+
+.paragraph{
+    font-size: 15px;
+    font:medium;
+    width:300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.explore-btn{
+    padding: 7px 15px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.right-sec .card-sec {
+    display: none; 
+}
+
+}
